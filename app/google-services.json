@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "906815896234",
+    "project_id": "cellphonex-e8905",
+    "storage_bucket": "cellphonex-e8905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906815896234:android:b4f51655e19086429d2ed3",
+        "android_client_info": {
+          "package_name": "cellPhoneX.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906815896234-nhuia8cro8e2fd9c9doc7v79q8267sd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cellPhoneX.com",
+            "certificate_hash": "d86b5d62748c01020a43380cd47588fbb2276ef7"
+          }
+        },
+        {
+          "client_id": "906815896234-0tejvajm7fj4amel8uluknruhnk21djv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiOOVE_O8ymXfJS-caxKD09YUfhuBir-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906815896234-0tejvajm7fj4amel8uluknruhnk21djv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

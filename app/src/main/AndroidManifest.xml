@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cellPhoneX.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_2"
+        android:label="Cell Phone X"
+        android:roundIcon="@mipmap/ic_launcher_2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BanjulFood">
+        <activity
+            android:name=".activity.CustomerOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomerOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.StartActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="demozpdk"
+                    android:host="app" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AdminOrderActivity" />
+        <activity android:name=".activity.AdminOrdersActivity" />
+        <activity android:name=".activity.ChckOutActivity" />
+        <activity android:name=".activity.ProductActivity" />
+        <activity android:name=".activity.SignInActivity" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="cellPhoneX.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="cellPhoneX.com" />
+
+        <activity android:name=".activity.SignUpActivity" />
+        <activity android:name=".activity.FoodAddActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activity.MainNewActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
